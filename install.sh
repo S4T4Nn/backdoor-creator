@@ -10,6 +10,7 @@ case "$p1" in
 		apt-get install figlet dex2jar -y
 		clear
 		figlet Download completo
+		echo "para executar digite: ./back.sh"
 	;;
 
 	n)
@@ -17,5 +18,6 @@ case "$p1" in
 		apt-get install figlet dex2jar metasploit-framework -y
                 clear
                 figlet Download completo
+		echo "para executar digite: ./back.sh"
 	;;
 esac
